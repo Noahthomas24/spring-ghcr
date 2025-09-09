@@ -18,5 +18,5 @@ jobs:
           # Test the application endpoint
           curl -f http://localhost:8090/actuator/health || exit 1
           
-          # Stop and remove the container
+          # Stop and remove the container.
           docker compose down
